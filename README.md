@@ -58,6 +58,13 @@
     NAME           URL                                                 LATESTCREATED        LATESTREADY          READY   REASON
     knative-demo   http://knative-demo.default.40.81.252.58.sslip.io   knative-demo-00001   knative-demo-00001   True  
   ```
+  8. Hit the URL
+  ```
+    curl  http://knative-demo.default.40.81.252.58.sslip.io
+    Hello Prism Revision1
+  ```
+    
+  
 
 
 
