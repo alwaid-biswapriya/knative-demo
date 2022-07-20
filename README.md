@@ -51,6 +51,13 @@
   ```
     kubectl apply -f knative-demo.yaml
   ```
+  7. To validate if the service got deployed successfully run the command mentioned bellow
+  ```
+    kubectl get ksvc
+    
+    NAME           URL                                                 LATESTCREATED        LATESTREADY          READY   REASON
+    knative-demo   http://knative-demo.default.40.81.252.58.sslip.io   knative-demo-00001   knative-demo-00001   True  
+  ```
 
 
 
